@@ -98,6 +98,8 @@ Fill in the functions `Image make_highpass_filter()`, `Image make_sharpen_filter
 Highpass                   |  Sharpen                  | Emboss
 :-------------------------:|:-------------------------:|:--------------------|
 ![](figs/highpass.png)     | ![](figs/sharpen.png)     | ![](figs/emboss.png)
+:-------------------------:|:-------------------------:|:--------------------|
+![](figs/dog-highpass.png)     | ![](figs/dog-sharpen.png)     | ![](figs/dog-emboss.png)
 
 ### 2.4 Implement a Gaussian kernel ###
 
