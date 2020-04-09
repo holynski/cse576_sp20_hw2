@@ -20,7 +20,11 @@ We've been talking a lot about resizing and interpolation in class, now's your t
     - Loop over the pixels and map back to the old coordinates
     - Use nearest-neighbor interpolate to fill in the image
 
-Your image should look something like:
+Your code will take the input image:
+
+![small_dog](data/dogsmall.jpg)
+
+and turn it into:
 
 ![blocky dog](figs/dog4x-nn.png)
 
