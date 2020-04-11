@@ -174,7 +174,7 @@ Fill in the function `pair<Image,Image> sobel_image(const Image& im)`. It should
 
 ### 4.4 Make a colorized representation ###
 
-Now using your sobel filter try to make a cool, stylized one. Fill in the function `Image colorize_sobel(const Image& im)`. I used the magnitude as the saturation and value of an image and the angle (theta) as the hue and then used our `hsv_to_rgb` function we wrote before. Make sure to feature normalize the magnitude, and normalize (divide) the angle by 2π so that both lie within 0 and 1. Add some smoothing (a Gaussian with sigma 4), so it looks even nicer.
+Now using your sobel filter try to make a cool, stylized one. Fill in the function `Image colorize_sobel(const Image& im)`. I used the magnitude as the saturation and value of an image and the angle (theta) as the hue and then used our `hsv_to_rgb` function we wrote before. Make sure to feature normalize the magnitude, and normalize (divide) the angle by 2π so that both lie within 0 and 1. Add some smoothing to the original image (a Gaussian with sigma 4), so it looks even nicer.
 
 ![](figs/lcolorized.png)
 
