@@ -43,7 +43,7 @@ Image convolve_image(const Image& im, const Image& filter, bool preserve)
   // This is the case when we need to use the function clamped_pixel(x,y,c).
   // Otherwise you'll have to manually check whether the filter goes out of bounds
   
-  // TODO: Make sure you set the sizes of ret properly. Use ret=Image(w,c,c) to reset ret
+  // TODO: Make sure you set the sizes of ret properly. Use ret=Image(w,h,c) to reset ret
   // TODO: Do the convolution operator
   NOT_IMPLEMENTED();
   
