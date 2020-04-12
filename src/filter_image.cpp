@@ -23,7 +23,7 @@ void l1_normalize(Image& im)
 // returns the filter Image of size WxW
 Image make_box_filter(int w)
   {
-  assert(w%2); // w needs to be even
+  assert(w%2); // w needs to be odd
   
   // TODO: Implement the filter
   NOT_IMPLEMENTED();
