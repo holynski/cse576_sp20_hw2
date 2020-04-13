@@ -202,7 +202,7 @@ Hint: For the spatial Gaussian, you can use the `make_gaussian_filter` you imple
 
 Fill in the function `Image bilateral_filter(const Image& im, float sigma1, float sigma2)` where `sigma1` is for the spatial gaussian and `sigma2` is for the color distance Gaussian. Use a kernel size of `6*sigma1` for the bilateral filter.
 
-Your image should have a similar effect to the image below so we suggest testing out a few spatial and color sigma parameters before submitting your final image(you can find the before image in `data/bilateral_raw.png`, note that it is 40x40 pixels and is being upsampled in this README). To submit the final image apply your filter to `cliffs.jpg` (Credit: Sylvian Paris) and name it `bilateral.jpg`. Good luck!
+Your image should have a similar effect to the image below so we suggest testing out a few spatial and color sigma parameters before submitting your final image(you can find the before image in `data/bilateral_raw.png`, note that it is 40x40 pixels and is being upsampled in this README). Good luck!
 
 Before                 |  After 
 :-----------------:|:------------------:
