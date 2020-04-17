@@ -187,6 +187,8 @@ void test_bilateral()
   Image bif= bilateral_filter(im,3,0.1);
   
   save_png(bif,"output/bilateral");
+  Image gt = load_image("data/dog-bilateral.png");
+  TEST(same_image(bif, gt));
   }
 
 void run_tests()
