@@ -6,7 +6,7 @@ using namespace std;
 // HW1 #1
 // float x,y: inexact coordinates
 // int c: channel
-// returns the nearest neibor to pixel (x,y,c)
+// returns the nearest neighbor to pixel (x,y,c)
 float Image::pixel_nearest(float x, float y, int c) const
   {
   // Since you are inside class Image you can
